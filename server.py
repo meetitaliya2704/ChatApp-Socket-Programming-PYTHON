@@ -12,6 +12,7 @@ DISCONNECT_MESSAGE = "!DISCONNECT"
 FILE_MESSAGE = "!FILE"
 BUFFER = 1024
 USERS_MESSAGE = "!USERS"
+DM_MESSAGE = "!DM"
 
 os.makedirs("server_files", exist_ok=True)
 
@@ -84,6 +85,30 @@ def receive_file(conn):
     return filename, filesize, filedata
 
 
+def send_private_message(sender_username, target_username, msg):
+    timestamp = datetime.now().strftime("%I:%M %p")
+    
+    # Check if target user exists
+    if target_username not in usernames:
+        # Send error back to sender
+        index = usernames.index(sender_username)
+        sender_conn = clients[index]
+        send_message(sender_conn, f"[{timestamp}] [ERROR] User '{target_username}' not found!")
+        return
+    
+    # Find target's socket
+    index = usernames.index(target_username)
+    target_conn = clients[index]
+    
+    # Send private message to target
+    send_message(target_conn, f"[{timestamp}] [PRIVATE] [{sender_username}] {msg}")
+    
+    # Confirm to sender
+    index = usernames.index(sender_username)
+    sender_conn = clients[index]
+    send_message(sender_conn, f"[{timestamp}] [PRIVATE → {target_username}] {msg}")
+    
+    
 def handle_client(conn, addr):
     # First message is always username
     username = conn.recv(1024).decode(FORMAT)
@@ -104,6 +129,17 @@ def handle_client(conn, addr):
             if msg == DISCONNECT_MESSAGE:
                 connected = False
             
+            elif msg.startswith(DM_MESSAGE):
+                # Format: !DM username message
+                parts = msg.split(" ", 2)
+                if len(parts) < 3:
+                    timestamp = datetime.now().strftime("%I:%M %p")
+                    send_message(conn, f"[{timestamp}] [ERROR] Usage: !DM username message")
+                else:
+                    target_username = parts[1]
+                    private_msg = parts[2]
+                    send_private_message(username, target_username, private_msg)
+        
             elif msg == USERS_MESSAGE:
                 # Building online users list
                 timestamp = datetime.now().strftime("%I:%M %p")
@@ -131,7 +167,7 @@ def handle_client(conn, addr):
             else:
                 timestamp = datetime.now().strftime("%I:%M %p")
                 print(f"[{timestamp}] [{username}] {msg}")
-                 # Broadcast to everyone
+                # Broadcast to everyone
                 broadcast(conn, f"[{username}] {msg}")
     
     

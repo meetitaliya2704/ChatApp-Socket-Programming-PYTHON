@@ -12,6 +12,7 @@ SERVER = "192.168.1.7"
 ADDR = (SERVER, PORT)
 BUFFER = 1024
 USERS_MESSAGE = "!USERS"
+DM_MESSAGE = "!DM"
 
 os.makedirs("received_files", exist_ok=True)
 
@@ -108,6 +109,13 @@ while True:
         send(DISCONNECT_MESSAGE)
         break
     
+    elif msg.startswith("!DM"):
+        parts = msg.split(" ", 2)
+        if len(parts) < 3:
+            print("[ERROR] Usage: !DM username message")
+        else:
+            send(msg)
+            
     elif msg == USERS_MESSAGE:
         send(USERS_MESSAGE)
         
