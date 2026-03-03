@@ -19,7 +19,7 @@ from datetime import datetime
 # ─────────────────────────────────────
 
 HEADER   = 64
-PORT     = 8080
+PORT     = 5050
 FORMAT   = 'utf-8'
 BUFFER   = 1024
 SERVER   = "192.168.1.7"   # change to server's IP
