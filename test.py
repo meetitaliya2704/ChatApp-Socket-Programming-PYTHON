@@ -1,1 +1,0 @@
-print(len("$2b$12$1eXWuJL3m9q6qzisxRrLheO1JaiJwMMt3YVCuB7ttjjwmNnjfWAqO"))
