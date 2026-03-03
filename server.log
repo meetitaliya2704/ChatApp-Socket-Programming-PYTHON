@@ -1,0 +1,8 @@
+2026-03-04 01:39:45,439 - INFO - Secure server is starting...
+2026-03-04 01:39:45,441 - INFO - Database initialized
+2026-03-04 01:39:45,450 - INFO - SSL context created
+2026-03-04 01:39:45,451 - INFO - Secure server listening on port 8080
+2026-03-04 01:40:06,056 - INFO - New connection from ('192.168.1.7', 27598)
+2026-03-04 01:40:06,056 - INFO - Active connections: 1
+2026-03-04 01:40:19,206 - INFO - User logged in: meet
+2026-03-04 01:40:19,207 - INFO - meet authenticated and joined from ('192.168.1.7', 27598)
