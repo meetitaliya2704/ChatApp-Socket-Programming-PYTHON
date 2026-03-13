@@ -6,3 +6,39 @@
 2026-03-04 01:40:06,056 - INFO - Active connections: 1
 2026-03-04 01:40:19,206 - INFO - User logged in: meet
 2026-03-04 01:40:19,207 - INFO - meet authenticated and joined from ('192.168.1.7', 27598)
+2026-03-04 18:28:37,001 - INFO - Secure server is starting...
+2026-03-04 18:28:37,025 - INFO - Database initialized
+2026-03-04 18:28:37,056 - INFO - SSL context created
+2026-03-04 18:28:37,057 - INFO - Secure server listening on port 8080
+2026-03-04 18:31:07,786 - INFO - New connection from ('192.168.1.6', 59850)
+2026-03-04 18:31:07,786 - INFO - Active connections: 1
+2026-03-04 18:31:08,152 - INFO - User logged in: meet
+2026-03-04 18:31:08,153 - INFO - meet authenticated and joined from ('192.168.1.6', 59850)
+2026-03-04 18:31:42,182 - INFO - meet: hello
+2026-03-04 18:32:13,822 - INFO - New connection from ('192.168.1.6', 61817)
+2026-03-04 18:32:13,823 - INFO - Active connections: 2
+2026-03-04 18:32:14,196 - INFO - New user registered: karan
+2026-03-04 18:32:14,197 - INFO - karan authenticated and joined from ('192.168.1.6', 61817)
+2026-03-04 18:32:44,150 - INFO - karan: hhvhuvh
+2026-03-04 18:32:48,859 - INFO - meet: kokok
+2026-03-04 18:32:58,926 - INFO - karan: jobjboin
+2026-03-04 18:33:18,383 - INFO - Private message from karan to meet
+2026-03-04 18:33:25,484 - INFO - Private message from meet to karan
+2026-03-04 18:33:56,198 - INFO - karan disconnected
+2026-03-04 18:34:34,315 - INFO - meet disconnected
+2026-03-07 21:43:27,167 - INFO - Secure server is starting...
+2026-03-07 21:43:27,191 - INFO - Database initialized
+2026-03-07 21:43:27,227 - INFO - SSL context created
+2026-03-07 21:43:27,228 - INFO - Secure server listening on port 8080
+2026-03-07 21:43:37,243 - INFO - New connection from ('192.168.1.6', 21219)
+2026-03-07 21:43:37,243 - INFO - Active connections: 1
+2026-03-07 21:43:37,895 - INFO - User logged in: meet
+2026-03-07 21:43:37,896 - INFO - meet authenticated and joined from ('192.168.1.6', 21219)
+2026-03-07 21:43:55,387 - INFO - meet: he;llouifuyc
+2026-03-07 21:44:00,318 - INFO - meet: ihsroi;hggigngdu
+2026-03-07 21:44:17,342 - INFO - meet: !DEACTIVATE
+2026-03-07 21:44:28,876 - INFO - meet disconnected
+2026-03-07 22:36:18,714 - INFO - Secure server is starting...
+2026-03-07 22:36:18,717 - INFO - Database initialized
+2026-03-07 22:36:18,729 - INFO - SSL context created
+2026-03-07 22:36:18,730 - INFO - Secure server listening on port 8080
