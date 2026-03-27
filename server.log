@@ -1,44 +1,83 @@
-2026-03-04 01:39:45,439 - INFO - Secure server is starting...
-2026-03-04 01:39:45,441 - INFO - Database initialized
-2026-03-04 01:39:45,450 - INFO - SSL context created
-2026-03-04 01:39:45,451 - INFO - Secure server listening on port 8080
-2026-03-04 01:40:06,056 - INFO - New connection from ('192.168.1.7', 27598)
-2026-03-04 01:40:06,056 - INFO - Active connections: 1
-2026-03-04 01:40:19,206 - INFO - User logged in: meet
-2026-03-04 01:40:19,207 - INFO - meet authenticated and joined from ('192.168.1.7', 27598)
-2026-03-04 18:28:37,001 - INFO - Secure server is starting...
-2026-03-04 18:28:37,025 - INFO - Database initialized
-2026-03-04 18:28:37,056 - INFO - SSL context created
-2026-03-04 18:28:37,057 - INFO - Secure server listening on port 8080
-2026-03-04 18:31:07,786 - INFO - New connection from ('192.168.1.6', 59850)
-2026-03-04 18:31:07,786 - INFO - Active connections: 1
-2026-03-04 18:31:08,152 - INFO - User logged in: meet
-2026-03-04 18:31:08,153 - INFO - meet authenticated and joined from ('192.168.1.6', 59850)
-2026-03-04 18:31:42,182 - INFO - meet: hello
-2026-03-04 18:32:13,822 - INFO - New connection from ('192.168.1.6', 61817)
-2026-03-04 18:32:13,823 - INFO - Active connections: 2
-2026-03-04 18:32:14,196 - INFO - New user registered: karan
-2026-03-04 18:32:14,197 - INFO - karan authenticated and joined from ('192.168.1.6', 61817)
-2026-03-04 18:32:44,150 - INFO - karan: hhvhuvh
-2026-03-04 18:32:48,859 - INFO - meet: kokok
-2026-03-04 18:32:58,926 - INFO - karan: jobjboin
-2026-03-04 18:33:18,383 - INFO - Private message from karan to meet
-2026-03-04 18:33:25,484 - INFO - Private message from meet to karan
-2026-03-04 18:33:56,198 - INFO - karan disconnected
-2026-03-04 18:34:34,315 - INFO - meet disconnected
-2026-03-07 21:43:27,167 - INFO - Secure server is starting...
-2026-03-07 21:43:27,191 - INFO - Database initialized
-2026-03-07 21:43:27,227 - INFO - SSL context created
-2026-03-07 21:43:27,228 - INFO - Secure server listening on port 8080
-2026-03-07 21:43:37,243 - INFO - New connection from ('192.168.1.6', 21219)
-2026-03-07 21:43:37,243 - INFO - Active connections: 1
-2026-03-07 21:43:37,895 - INFO - User logged in: meet
-2026-03-07 21:43:37,896 - INFO - meet authenticated and joined from ('192.168.1.6', 21219)
-2026-03-07 21:43:55,387 - INFO - meet: he;llouifuyc
-2026-03-07 21:44:00,318 - INFO - meet: ihsroi;hggigngdu
-2026-03-07 21:44:17,342 - INFO - meet: !DEACTIVATE
-2026-03-07 21:44:28,876 - INFO - meet disconnected
-2026-03-07 22:36:18,714 - INFO - Secure server is starting...
-2026-03-07 22:36:18,717 - INFO - Database initialized
-2026-03-07 22:36:18,729 - INFO - SSL context created
-2026-03-07 22:36:18,730 - INFO - Secure server listening on port 8080
+2026-03-26 18:34:49,559 - INFO - Secure server is starting...
+2026-03-26 18:34:49,571 - INFO - Database initialized
+2026-03-26 18:34:49,577 - INFO - SSL context created
+2026-03-26 18:34:49,578 - INFO - Secure server listening on port 8080
+2026-03-27 19:43:39,132 - INFO - Secure async server is starting...
+2026-03-27 19:43:39,169 - INFO - Database initialized
+2026-03-27 19:43:39,272 - INFO - SSL context created
+2026-03-27 19:43:39,275 - INFO - Secure server listening on port 8080
+2026-03-27 19:46:30,543 - INFO - Secure async server is starting...
+2026-03-27 19:46:30,546 - INFO - Database initialized
+2026-03-27 19:46:30,551 - INFO - SSL context created
+2026-03-27 19:46:30,552 - INFO - Secure server listening on port 8080
+2026-03-27 19:48:28,546 - INFO - New connection from ('192.168.222.1', 36838)
+2026-03-27 19:49:00,344 - INFO - New user registered: tirth
+2026-03-27 19:49:00,346 - INFO - tirth authenticated and joined from ('192.168.222.1', 36838)
+2026-03-27 19:49:05,025 - INFO - tirth: rererer
+2026-03-27 19:49:06,477 - INFO - tirth: erererer
+2026-03-27 20:02:46,495 - INFO - Secure server is starting...
+2026-03-27 20:02:46,498 - INFO - Database initialized
+2026-03-27 20:02:46,503 - INFO - SSL context created
+2026-03-27 20:02:46,503 - INFO - Secure server listening on port 8080
+2026-03-27 20:03:21,792 - INFO - New connection from ('127.0.0.1', 34068)
+2026-03-27 20:03:21,792 - INFO - Active connections: 1
+2026-03-27 20:03:22,186 - INFO - New user registered: darshan
+2026-03-27 20:03:22,187 - INFO - darshan authenticated and joined from ('127.0.0.1', 34068)
+2026-03-27 20:04:26,086 - INFO - darshan: hello
+2026-03-27 20:04:29,771 - INFO - darshan: kkpkpekpk
+2026-03-27 20:04:49,148 - INFO - New connection from ('127.0.0.1', 34087)
+2026-03-27 20:04:49,149 - INFO - Active connections: 2
+2026-03-27 20:04:49,162 - WARNING - Authentication failed from ('127.0.0.1', 34087)
+2026-03-27 20:05:03,760 - INFO - New connection from ('127.0.0.1', 34088)
+2026-03-27 20:05:03,761 - INFO - Active connections: 2
+2026-03-27 20:05:04,340 - INFO - User logged in: tirth
+2026-03-27 20:05:04,342 - INFO - tirth authenticated and joined from ('127.0.0.1', 34088)
+2026-03-27 20:05:33,612 - INFO - Private message from tirth to darshan
+2026-03-27 20:05:52,991 - INFO - tirth: nice to meet you all guys
+2026-03-27 20:06:25,030 - INFO - tirth: hello
+2026-03-27 20:06:26,075 - INFO - darshan: hello tirth
+2026-03-27 20:07:44,851 - INFO - New connection from ('127.0.0.1', 34106)
+2026-03-27 20:07:44,852 - INFO - Active connections: 3
+2026-03-27 20:07:45,187 - INFO - New user registered: het
+2026-03-27 20:07:45,188 - INFO - het authenticated and joined from ('127.0.0.1', 34106)
+2026-03-27 20:08:02,020 - INFO - New connection from ('127.0.0.1', 46943)
+2026-03-27 20:08:02,020 - INFO - Active connections: 4
+2026-03-27 20:08:02,433 - INFO - New user registered: aryan
+2026-03-27 20:08:02,434 - INFO - aryan authenticated and joined from ('127.0.0.1', 46943)
+2026-03-27 20:08:08,512 - INFO - aryan: khkhkhkl
+2026-03-27 20:08:12,046 - INFO - aryan: kokokokoko
+2026-03-27 20:08:15,933 - INFO - darshan: ijijijiji
+2026-03-27 20:08:18,683 - INFO - darshan: knjoj
+2026-03-27 20:08:23,243 - INFO - tirth: djjdjjjdjjdj
+2026-03-27 20:08:36,445 - INFO - het: lklklklklkllk
+2026-03-27 20:08:44,050 - INFO - het: kdkdkdkdkdkdkdkkdkdk
+2026-03-27 20:09:20,511 - INFO - New connection from ('192.168.222.1', 44881)
+2026-03-27 20:09:20,512 - INFO - Active connections: 5
+2026-03-27 20:10:06,455 - INFO - New user registered: meeti
+2026-03-27 20:10:06,456 - INFO - meeti authenticated and joined from ('192.168.222.1', 44881)
+2026-03-27 20:10:29,047 - INFO - meeti disconnected
+2026-03-27 20:10:59,968 - INFO - tirth disconnected
+2026-03-27 20:11:11,163 - INFO - darshan disconnected
+2026-03-27 20:11:13,374 - INFO - het disconnected
+2026-03-27 20:11:55,277 - INFO - aryan disconnected
+2026-03-27 20:32:03,944 - INFO - Secure server is starting...
+2026-03-27 20:32:03,946 - INFO - Database initialized
+2026-03-27 20:32:03,950 - INFO - SSL context created
+2026-03-27 20:32:03,951 - INFO - Secure server listening on port 8080
+2026-03-27 20:33:03,187 - INFO - New connection from ('192.168.222.1', 57247)
+2026-03-27 20:33:03,187 - INFO - Active connections: 1
+2026-03-27 20:33:03,523 - INFO - User logged in: meeti
+2026-03-27 20:33:03,524 - INFO - meeti authenticated and joined from ('192.168.222.1', 57247)
+2026-03-27 20:33:18,139 - INFO - meeti disconnected
+2026-03-27 20:33:49,827 - INFO - New connection from ('192.168.222.1', 42314)
+2026-03-27 20:33:49,827 - INFO - Active connections: 1
+2026-03-27 20:33:50,110 - INFO - User logged in: meeti
+2026-03-27 20:33:50,110 - INFO - meeti authenticated and joined from ('192.168.222.1', 42314)
+2026-03-27 20:34:02,079 - INFO - meeti disconnected
+2026-03-27 20:34:25,608 - INFO - New connection from ('192.168.222.1', 42318)
+2026-03-27 20:34:25,608 - INFO - Active connections: 1
+2026-03-27 20:34:25,924 - INFO - User logged in: meeti
+2026-03-27 20:34:25,924 - INFO - meeti authenticated and joined from ('192.168.222.1', 42318)
+2026-03-27 20:34:51,680 - INFO - meeti: hello all
+2026-03-27 20:35:00,100 - INFO - meeti: hello
+2026-03-27 20:35:09,979 - INFO - meeti disconnected

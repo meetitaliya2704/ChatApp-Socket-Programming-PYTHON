@@ -1,5 +1,5 @@
 # ============================================================
-#   CHAT CLIENT — DEPLOYMENT LEVEL
+#   CHAT CLIENT —
 #   Commands:
 #     !DISCONNECT        → leave the chat
 #     !USERS             → see online users
@@ -22,7 +22,7 @@ HEADER   = 64
 PORT     = 8080
 FORMAT   = 'utf-8'
 BUFFER   = 1024
-SERVER   = "192.168.1.7"   # change to server's IP
+SERVER   = "192.168.222.1"   # change to server's IP
 ADDR     = (SERVER, PORT)
 CERT_FILE = "cert.pem"     # must be same cert as server
 
@@ -43,7 +43,7 @@ os.makedirs("received_files", exist_ok=True)
 
 
 # ─────────────────────────────────────
-# HELPER: TIMESTAMP
+# TIMESTAMP
 # ─────────────────────────────────────
 
 def get_timestamp():
